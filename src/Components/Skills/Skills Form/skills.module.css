@@ -1,0 +1,42 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #242424;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.titleButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.h3 {
+    grid-row: 1/2;
+    margin-bottom: 0;
+    width: min-content;
+}
+
+.button {
+    grid-row: 1/2;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 0px 8px 0px 8px;
+    height: min-content;
+    width: min-content;
+}
+
+.input {
+    height: 40%;
+}
+
+.button:hover {
+    background-color: crimson
+}

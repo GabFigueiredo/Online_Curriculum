@@ -1,0 +1,22 @@
+.section {
+    margin: 20px 20px 10px 20px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.li {
+    font-size: 20px;
+    width: fit-content;
+    color: crimson;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(94, 3, 21);
+}

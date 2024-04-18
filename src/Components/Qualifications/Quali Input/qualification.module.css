@@ -1,0 +1,29 @@
+.qualification {
+    border-radius: 30px;
+    background-color: #242424;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button {
+    grid-row: 1/2;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    padding: 0px 8px 0px 8px;
+    height: min-content;
+    width: min-content;
+}
+
+#button:hover {
+    background-color: crimson
+}

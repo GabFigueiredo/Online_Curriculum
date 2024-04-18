@@ -1,0 +1,15 @@
+.personal {
+    border-radius: 30px;
+    background-color: #242424;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h3 {
+    width: fit-content;
+}
+
+.p {
+    width: fit-content;
+}
